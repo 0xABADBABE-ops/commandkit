@@ -13,12 +13,13 @@ import MemberDescription from '@site/src/components/MemberDescription';
 
 ## UserSelectMenuProps
 
-<GenerationInfo sourceFile="packages/commandkit/src/components/interactive/select-menu/SelectMenu.ts" sourceLine="196" packageName="commandkit" />
+<GenerationInfo sourceFile="packages/commandkit/src/components/interactive/select-menu/SelectMenu.ts" sourceLine="199" packageName="commandkit" />
 
 The UserSelectMenu component.
 
 ```ts title="Signature"
-interface UserSelectMenuProps extends Partial<Omit<UserSelectMenuComponentData, 'type' | 'defaultValues'>>,
+interface UserSelectMenuProps extends
+    Partial<Omit<UserSelectMenuComponentData, 'type' | 'defaultValues'>>,
     CommonSelectMenuProps<UserSelectMenuInteraction, UserSelectMenuKit> {
     defaultValues?: MaybeArray<string | Snowflake>;
 }

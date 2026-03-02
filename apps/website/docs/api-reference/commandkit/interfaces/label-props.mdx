@@ -18,11 +18,14 @@ import MemberDescription from '@site/src/components/MemberDescription';
 The label properties for the label component.
 
 ```ts title="Signature"
-interface LabelProps extends Omit<LabelBuilderData, 'component' | 'type'> {
+interface LabelProps extends Omit<
+  LabelBuilderData,
+  'component' | 'type'
+> {
     children: LabelBuilderData['component'] & {};
 }
 ```
-* Extends: <code>Omit&#60;LabelBuilderData, 'component' | 'type'&#62;</code>
+* Extends: <code>Omit&#60;   LabelBuilderData,   'component' | 'type' &#62;</code>
 
 
 

@@ -18,12 +18,15 @@ import MemberDescription from '@site/src/components/MemberDescription';
 Represents the properties for a container component.
 
 ```ts title="Signature"
-interface ContainerProps extends Omit<ContainerComponentData, 'type' | 'components' | 'accentColor'> {
+interface ContainerProps extends Omit<
+  ContainerComponentData,
+  'type' | 'components' | 'accentColor'
+> {
     accentColor?: ColorResolvable;
     children?: ComponentBuilder[];
 }
 ```
-* Extends: <code>Omit&#60;ContainerComponentData, 'type' | 'components' | 'accentColor'&#62;</code>
+* Extends: <code>Omit&#60;   ContainerComponentData,   'type' | 'components' | 'accentColor' &#62;</code>
 
 
 

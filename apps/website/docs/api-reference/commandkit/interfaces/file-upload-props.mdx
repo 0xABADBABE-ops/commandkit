@@ -18,12 +18,15 @@ import MemberDescription from '@site/src/components/MemberDescription';
 
 
 ```ts title="Signature"
-interface FileUploadProps extends Omit<FileUploadComponentData, 'type' | 'required'> {
+interface FileUploadProps extends Omit<
+  FileUploadComponentData,
+  'type' | 'required'
+> {
     id?: number;
     required?: boolean;
 }
 ```
-* Extends: <code>Omit&#60;FileUploadComponentData, 'type' | 'required'&#62;</code>
+* Extends: <code>Omit&#60;   FileUploadComponentData,   'type' | 'required' &#62;</code>
 
 
 

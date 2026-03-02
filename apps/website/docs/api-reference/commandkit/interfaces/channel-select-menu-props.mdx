@@ -13,12 +13,13 @@ import MemberDescription from '@site/src/components/MemberDescription';
 
 ## ChannelSelectMenuProps
 
-<GenerationInfo sourceFile="packages/commandkit/src/components/interactive/select-menu/SelectMenu.ts" sourceLine="299" packageName="commandkit" />
+<GenerationInfo sourceFile="packages/commandkit/src/components/interactive/select-menu/SelectMenu.ts" sourceLine="305" packageName="commandkit" />
 
 The ChannelSelectMenu component props.
 
 ```ts title="Signature"
-interface ChannelSelectMenuProps extends Partial<Omit<ChannelSelectMenuComponentData, 'type'>>,
+interface ChannelSelectMenuProps extends
+    Partial<Omit<ChannelSelectMenuComponentData, 'type'>>,
     CommonSelectMenuProps<ChannelSelectMenuInteraction, ChannelSelectMenuKit> {
 
 }

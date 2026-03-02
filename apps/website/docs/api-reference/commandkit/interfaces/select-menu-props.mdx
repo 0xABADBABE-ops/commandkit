@@ -18,7 +18,8 @@ import MemberDescription from '@site/src/components/MemberDescription';
 Type for the base select menu component data.
 
 ```ts title="Signature"
-interface SelectMenuProps<T, C> extends Partial<Omit<BaseSelectMenuComponentData, 'type' | 'required'>>,
+interface SelectMenuProps<T, C> extends
+    Partial<Omit<BaseSelectMenuComponentData, 'type' | 'required'>>,
     CommonSelectMenuProps<T, C> {
     required?: boolean;
 }

@@ -18,11 +18,13 @@ import MemberDescription from '@site/src/components/MemberDescription';
 The poll properties for the poll component.
 
 ```ts title="Signature"
-interface PollProps extends Partial<Omit<PollData, 'question' | 'answers'>> {
+interface PollProps extends Partial<
+  Omit<PollData, 'question' | 'answers'>
+> {
     children: PollChildrenType[];
 }
 ```
-* Extends: <code>Partial&#60;Omit&#60;PollData, 'question' | 'answers'&#62;&#62;</code>
+* Extends: <code>Partial&#60;   Omit&#60;PollData, 'question' | 'answers'&#62; &#62;</code>
 
 
 

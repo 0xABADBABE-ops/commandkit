@@ -20,12 +20,15 @@ This interface extends the TextDisplayComponentData type from discord.js,
 excluding the 'type' and 'content' properties.
 
 ```ts title="Signature"
-interface TextDisplayProps extends Omit<TextDisplayComponentData, 'type' | 'content'> {
+interface TextDisplayProps extends Omit<
+  TextDisplayComponentData,
+  'type' | 'content'
+> {
     children?: StringEncodable | StringEncodable[];
     content?: string;
 }
 ```
-* Extends: <code>Omit&#60;TextDisplayComponentData, 'type' | 'content'&#62;</code>
+* Extends: <code>Omit&#60;   TextDisplayComponentData,   'type' | 'content' &#62;</code>
 
 
 

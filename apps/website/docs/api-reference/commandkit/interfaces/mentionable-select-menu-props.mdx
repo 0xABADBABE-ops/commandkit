@@ -13,12 +13,13 @@ import MemberDescription from '@site/src/components/MemberDescription';
 
 ## MentionableSelectMenuProps
 
-<GenerationInfo sourceFile="packages/commandkit/src/components/interactive/select-menu/SelectMenu.ts" sourceLine="264" packageName="commandkit" />
+<GenerationInfo sourceFile="packages/commandkit/src/components/interactive/select-menu/SelectMenu.ts" sourceLine="269" packageName="commandkit" />
 
 The MentionableSelectMenu component props.
 
 ```ts title="Signature"
-interface MentionableSelectMenuProps extends Partial<Omit<MentionableSelectMenuComponentData, 'type'>>,
+interface MentionableSelectMenuProps extends
+    Partial<Omit<MentionableSelectMenuComponentData, 'type'>>,
     CommonSelectMenuProps<
       MentionableSelectMenuInteraction,
       MentionableSelectMenuKit
